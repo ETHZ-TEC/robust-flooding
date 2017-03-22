@@ -1,6 +1,5 @@
 Robust Flooding using Back-to-Back Synchronous Transmissions with Channel-Hopping
 =================================================================================
-
 This is the source code of used for the EWSN dependability competition 2017 [1]. This solution was rated first amongst 10 submissions.
 
 Scenario
@@ -34,6 +33,13 @@ To run this code on FlockLab [4], set the DEFINES in the Makefile as follows:
 DEFINES=COMPETITION_MODE=0,TINYOS_NODE_ID=1,GLOSSY_PERIOD_MS=50,N_TX=6,N_CH=6,SLEEP_BTW_EVENTS=1,USE_LIGHT_SENSOR=0
 ```
 This allows to generate events on the initiator node using the GPIO actuation feature of FlockLab, by toggling the SIG1 pin.
+
+Contact
+-------
+Roman Lim <lim@tik.ee.ethz.ch>
+Reto Da Forno <rdaforno@ee.ethz.ch>
+Felix Sutton <rdaforno@ee.ethz.ch>
+Lothar Thiele <thiele@ethz.ch>
 
 References
 ----------
